@@ -1,0 +1,237 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  outline: 0;
+  box-sizing: border-box;
+
+  font-family: 'Roboto', sans-serif;
+}
+
+#header-title {
+  height: 60px;
+  padding: 0 30px;
+  background-color: lightgreen;
+  color: #333;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#header {
+  height: 60px;
+  padding: 0 30px;
+  background-color: lightgreen;
+  color: #333;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#menu {
+  height: 90px;
+  padding: 0 30px;
+  background-color: green;
+  color: #333;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+button {
+  background-color: lightgreen;
+  border: 0;
+  border-radius: 5px;
+  font-size: 18px;
+  font-weight: bold;
+  color: #333;
+  padding: 5px 15px;
+}
+
+button:hover {
+  cursor: pointer;
+  background-color: greenyellow;
+}
+
+#icons {
+  width: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+i {
+  cursor: pointer;
+}
+
+#body {
+  height: 100%;
+  width: 100%;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  flex: 1;
+}
+
+#body-img {
+  height: 800px;
+  width: 1980px;
+  opacity: 0.7;
+}
+
+.produtos-home img {
+  display: block;
+  width: 50px;
+  height: 50px;
+}
+h5 {
+  font-size: 32px;
+  padding-bottom: 15px;
+  padding-top: 15px;
+}
+.img-produtos {
+  display: inline-block;
+  height: 10px;
+}
+#video-div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.h7 {
+  margin-left: 700px;
+  font-size: 32px;
+  padding-bottom: 15px;
+  padding-top: 15px;
+  font-weight: bold;
+}
+.text-area {
+  padding: auto;
+}
+
+iframe {
+  height: 720px;
+  width: 1280px;
+}
+
+#div-endereco {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+#div-endereco h6 {
+  font-size: 32px;
+  padding-bottom: 15px;
+  padding-top: 15px;
+}
+
+.footer {
+  width: 100%;
+  background: black;
+  color: #fff;
+  padding: 20px 0;
+}
+
+.footer h3 {
+  font-size: 18px;
+  line-height: 25px;
+  color: lightgreen;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  font-weight: bold;
+}
+
+.footer h3:after {
+  content: '';
+  display: block;
+  width: 60px;
+  height: 3px;
+  background: lightgreen;
+  margin: 6px 0 12px 0;
+}
+
+.footer_historia {
+  padding-right: 40px;
+}
+
+.footer_contato ul li {
+  font-size: 14px;
+  line-height: 20px;
+  font-family: Georgia, 'Times New Roman', serif;
+}
+
+.footer_redes ul li {
+  display: inline-block;
+  margin-right: 10px;
+}
+
+.footer_redes ul li a {
+  border: 3px solid lightgreen;
+  display: block;
+  padding: 10px;
+}
+
+.footer_redes ul li a:hover {
+  border-color: #fff;
+}
+.copy {
+  width: 100%;
+  background: greenyellow;
+  padding: 20px 0;
+}
+
+#clientes-titulo {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+
+  margin-top: 25px;
+}
+
+#clientes-titulo h7 {
+  font-weight: bold;
+  font-size: 35px;
+}
+
+#clientes {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+#depoimento-card {
+  height: 250px;
+  width: 200px;
+  margin: 15px;
+  background-color: lightgreen;
+
+  border-radius: 15px;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+#depoimento-card .stars {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+#depoimento-card .stars p {
+  font-size: 35px;
+}

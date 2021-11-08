@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="pt">
+
+<head>
+  <link rel="stylesheet" href="css/style.css" />
+  <link rel="stylesheet" href="css/grid.css" />
+  <link rel="stylesheet" href="css/products.css" />
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <script src="js/products.js"></script>
+  <title>TULIP</title>
+</head>
+
+<body>
+  <div id="header-title">
+    <h1>Reformamos seu instrumento</h1>
+  </div>
+  <div id="menu">
+    <h2>TULIP Music</h2>
+    <div>
+      <button onclick="window.location.href='pages/cadastro.html'">
+        Cadastrar
+      </button>
+      <button onclick="window.location.href='pages/Login.html'">Login
+      </button>
+      <button onclick="window.location.href='./pages/mais-produtos.html'">
+        Produtos
+      </button>
+    </div>
+    <div id="icons">
+      <i class="fa fa-search"></i>
+      <i onclick="window.location.href='pages/cart.html'" class="fa fa-shopping-cart"></i>
+    </div>
+  </div>
+  <div id="body">
+    <img id="body-img" src="img/store.jpg" alt="Loja" />
+  </div>
+  
+  <div id="sub-header">
+    <h2>Produtos mais vendidos da nossa loja</h2>
+  </div>
+  </div>
+  <div class="div-mais-vendidos">
+    <div class="div-cards">
+      <div id="products"></div>
+      <button
+        class="button-generico"
+        onclick="window.location.href='./pages/mais-produtos.html'"
+      >
+        Ver todos os produtos
+      </button>
+    </div>
+  </div>
+  <div id="video-div">
+    <h5>Demonstração dos produtos</h5>
+    <iframe  src="https://www.youtube.com/embed/CFVPW6oV67s" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+  </div>
+  <div id="clientes-titulo">
+    <h7>Depoimento de clientes</h7>
+  </div>
+  
+  <div id="clientes">
+    <div id="depoimento-card">
+      <h3>Gabriel Gavanski</h3>
+      <p>Gostei muito!</p>
+      <div class="stars">
+        <p>	&#9733;	</p>
+        <p>	&#9733;	</p>
+        <p>	&#9733;	</p>
+        <p>	&#9733;	</p>
+        <p>	&#9734;</p>
+      </div>
+    </div>
+    <div id="depoimento-card">
+      <h3>Filipe Ricardo</h3>
+      <p>Achei legal!</p>
+      <div class="stars">
+        <p>	&#9733;	</p>
+        <p>	&#9733;	</p>
+        <p>	&#9734;	</p>
+        <p>	&#9734;	</p>
+        <p>	&#9734;</p>
+      </div>
+    </div>
+    <div id="depoimento-card">
+      <h3>Gabriel Gonçalves</h3>
+      <p>Recomento pra todos!</p>
+      <div class="stars">
+        <p>	&#9733;	</p>
+        <p>	&#9733;	</p>
+        <p>	&#9733;	</p>
+        <p>	&#9733;	</p>
+        <p>	&#9734;</p>
+      </div>
+    </div>
+  </div>
+  <div id="div-endereco">
+    <h6>Endereço</h6>
+    <a class="endereco" href="https://www.google.com.br/maps/@-25.392428,-51.462465,15z"><img src="img/mapa.jpg"></a>
+  </div>
+
+  <footer>
+    <div class="footer">
+      <div class="container">
+        <div class="grid-8 footer_historia">
+          <h3>Nossa História</h3>
+          <p>"Sempre tivemos o sonho de reformar e fazer instrumentos musicais, então apos alguns anos três amigos resolveram criar a empresa para realizar o sonho mutuo e fazer a felicidade de muitas pessoas"
+
+          </p>
+        </div>
+        <div class="grid-4 footer_contato">
+          <h3>Contato</h3>
+          <ul>
+            <li>- 41 9999-9999</li>
+            <li>- Contato@TulipMusic.com</li>
+            <li>- Prado Velho - Curitiba</li>
+          </ul>
+        </div>
+
+        <div class="grid-4 footer_redes">
+          <h3>Redes Sociais</h3>
+          <ul>
+            <li><a href="http//facebook.com" target="_blank"><img src="img/redes-sociais/facebook.svg" alt="Facebook"></a></li>
+            <li><a href="http//instagram.com" target="_blank"><img src="img/redes-sociais/instagram.svg" alt="Instagram"></a></li>
+            <li><a href="http//twitter.com" target="_blank"><img src="img/redes-sociais/twitter.svg" alt="Twitter"></a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <div class="copy">
+      <div class="container">
+        <p class="grid-16">TULIP Music 2021 - Alguns direitos reservados.</p>
+      </div>
+    </div>
+  </footer>
+</body>
+
+</html>
